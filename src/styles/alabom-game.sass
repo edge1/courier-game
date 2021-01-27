@@ -1,0 +1,643 @@
+@charset "UTF-8"
+@import url("//fonts.googleapis.com/css?family=Oswald&subset=latin,cyrillic")
+
+.alabom-game-style
+  position: absolute
+  width: 600px
+  height: 400px
+  background-color: white
+  clip: rect(0px, 600px, 400px, 0px)
+
+.alabom-game-style-empty
+  position: absolute
+  width: 100%
+  height: 100%
+
+.alabom-game-engine-mute
+  position: absolute
+  top: 5px
+  right: 5px
+  width: 43px
+  height: 41px
+  background-position: 0 0
+  background-size: calc(399px / 4.5) calc(182px / 4.5) !important
+  background-repeat: no-repeat !important
+  cursor: pointer
+  background: url(/common/mute.png)
+
+.alabom-game-engine-help
+  position: absolute
+  left: 0px
+  bottom: 0px
+  width: 600px
+  height: 100px
+  clip: rect(0px, 600px, 400px, 0px)
+
+.alabom-game-engine-help-text
+  display: table
+  position: absolute
+  left: 50%
+  transform: translate(-50%, 0%)
+  font-family: Oswald
+  font-size: 20px
+  color: white
+
+
+
+.alabom-game-engine-winter-bg
+  position: absolute
+  left: 0px
+  width: 100%
+  top: 0px
+  bottom: 0px
+  background-size: cover !important
+  background-repeat: no-repeat !important
+  background-position: right
+  background: url(/winter/fon3.png)
+
+.alabom-game-engine-winter-bg2
+  position: absolute
+  left: 0px
+  width: 100%
+  top: 0px
+  bottom: 111px
+  background-position: 0px bottom
+  background-size: contain !important
+  background-repeat: repeat-x !important
+  background: url(/winter/fon2.png)
+
+.alabom-game-engine-winter-bg3
+  position: absolute
+  left: 0px
+  width: 100%
+  top: 0px
+  bottom: 111px
+  background-position: 0px bottom
+  background-size: contain !important
+  background-repeat: repeat-x !important
+  background: url(/winter/fon1.png)
+
+.alabom-game-engine-winter-ground
+  position: absolute
+  left: 0px
+  bottom: 0px
+  width: 100%
+  height: 29%
+  background-position: 0px bottom
+  background-size: contain !important
+  background-repeat: repeat-x !important
+  background: url(/winter/podval1.png)
+
+.alabom-game-engine-winter-fir
+  position: absolute
+  left: 102px
+  bottom: 110px
+  width: calc(165px / 2.2) !important
+  height: calc(242px / 2.2) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/winter/elka.png)
+
+.alabom-game-engine-winter-snowman
+  position: absolute
+  left: 102px
+  bottom: 113px
+  width: calc(181px / 2.2) !important
+  height: calc(179px / 2.2) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/winter/snegovik.png)
+
+.alabom-game-engine-winter-feltboots
+  position: absolute
+  left: 102px
+  bottom: 111px
+  width: calc(135px / 2.5) !important
+  height: calc(86px / 2.5) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/winter/valenki.png)
+
+.alabom-game-engine-winter-glacier
+  position: absolute
+  left: 102px
+  bottom: 2px
+  width: calc(258px / 2.2) !important
+  height: calc(258px / 2.2) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/winter/podval2.png)
+
+.alabom-game-engine-winter-peng
+  position: absolute
+  left: 42px
+  bottom: 107px
+  width: 92px
+  height: 100px
+  background-position: 0 -18px
+  background-size: calc(1337px / 2.1) calc(305px / 2.1) !important
+  background-repeat: no-repeat !important
+  background: url(/winter/pingvin.png)
+
+
+
+
+.alabom-game-engine-summer-bg
+  position: absolute
+  left: 0px
+  width: 100%
+  top: 0px
+  bottom: 0px
+  background-size: cover !important
+  background-repeat: no-repeat !important
+  background-position: right
+  background: url(/summer/fon.png)
+
+.alabom-game-engine-summer-bg2
+  position: absolute
+  left: 0px
+  width: 100%
+  top: 0px
+  bottom: 111px
+  background-position: 0px bottom
+  background-size: contain !important
+  background-repeat: repeat-x !important
+  background: url(/summer/fon2.png)
+
+.alabom-game-engine-summer-bg3
+  position: absolute
+  left: 0px
+  width: 100%
+  top: 0px
+  bottom: 111px
+  background-position: 0px bottom
+  background-size: contain !important
+  background-repeat: repeat-x !important
+  background: url(/summer/fon1.png)
+
+.alabom-game-engine-summer-ground
+  position: absolute
+  left: 0px
+  bottom: 0px
+  width: 100%
+  height: 30%
+  background-position: 0px bottom
+  background-size: contain !important
+  background-repeat: repeat-x !important
+  background: url(/summer/more.png)
+
+.alabom-game-engine-summer-ship
+  position: absolute
+  left: 102px
+  bottom: 110px
+  width: calc(326px / 2.7) !important
+  height: calc(252px / 2.7) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/summer/parahod.png)
+
+.alabom-game-engine-summer-wave
+  position: absolute
+  left: 102px
+  bottom: 113px
+  width: calc(272px / 2.2) !important
+  height: calc(119px / 2.2) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/summer/volna.png)
+
+.alabom-game-engine-summer-whale
+  position: absolute
+  left: 102px
+  bottom: 64px
+  width: calc(213px / 3.0) !important
+  height: calc(290px / 3.0) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/summer/kit.png)
+
+.alabom-game-engine-summer-whirlpool
+  position: absolute
+  left: 102px
+  bottom: -1px
+  width: calc(258px / 2.2) !important
+  height: calc(258px / 2.2) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/summer/more4.png)
+
+.alabom-game-engine-summer-peng
+  position: absolute
+  left: 42px
+  bottom: 107px
+  width: 92px
+  height: 100px
+  background-position: 0 -18px
+  background-size: calc(1337px / 2.1) calc(305px / 2.1) !important
+  background-repeat: no-repeat !important
+  background: url(/summer/pingvin.png)
+
+
+
+
+.alabom-game-engine-china-bg
+  position: absolute
+  left: 0px
+  width: 100%
+  top: 0px
+  bottom: 0px
+  background-size: cover !important
+  background-repeat: no-repeat !important
+  background-position: right
+  background: url(/china/fon.png)
+
+.alabom-game-engine-china-bg2
+  position: absolute
+  left: 0px
+  width: 100%
+  top: 0px
+  bottom: 111px
+  background-position: 0px bottom
+  background-size: contain !important
+  background-repeat: repeat-x !important
+  background: url(/china/stena.png)
+
+.alabom-game-engine-china-bg3
+  position: absolute
+  left: 0px
+  width: 100%
+  top: 0px
+  bottom: 111px
+  background-position: 0px bottom
+  background-size: contain !important
+  background-repeat: repeat-x !important
+  background: url(/china/kust.png)
+
+.alabom-game-engine-china-ground
+  position: absolute
+  left: 0px
+  bottom: 0px
+  width: 100%
+  height: 28%
+  background-position: 0px bottom
+  background-size: contain !important
+  background-repeat: repeat-x !important
+  background: url(/china/podval1.png)
+
+.alabom-game-engine-china-dragon
+  position: absolute
+  left: 102px
+  bottom: 110px
+  width: calc(255px / 2.5) !important
+  height: calc(170px / 2.5) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/china/drakon.png)
+
+.alabom-game-engine-china-cart
+  position: absolute
+  left: 102px
+  bottom: 110px
+  width: calc(190px / 2.5) !important
+  height: calc(170px / 2.5) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/china/telega.png)
+
+.alabom-game-engine-china-chinatree
+  position: absolute
+  left: 102px
+  bottom: 110px
+  width: calc(333px / 3.0) !important
+  height: calc(315px / 3.0) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/china/derevo.png)
+
+.alabom-game-engine-china-pit
+  position: absolute
+  left: 102px
+  bottom: 0px
+  width: calc(505px / 4.5) !important
+  height: calc(506px / 4.5) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/china/podval2.png)
+
+.alabom-game-engine-china-peng
+  position: absolute
+  left: 42px
+  bottom: 107px
+  width: 92px
+  height: 100px
+  background-position: 0 -18px
+  background-size: calc(1337px / 2.3) calc(305px / 2.3) !important
+  background-repeat: no-repeat !important
+  background: url(/china/pingvin.png)
+
+
+
+.alabom-game-engine-city-bg
+  position: absolute
+  left: 0px
+  width: 100%
+  top: 0px
+  bottom: 0px
+  background-size: cover !important
+  background-repeat: no-repeat !important
+  background-position: right
+  background: url(/city/fon.jpg)
+
+.alabom-game-engine-city-bg2
+  position: absolute
+  left: 0px
+  width: 100%
+  top: 0px
+  bottom: 111px
+  background-position: 0px bottom
+  background-size: contain !important
+  background-repeat: repeat-x !important
+  background: url(/city/f2.png)
+
+.alabom-game-engine-city-bg3
+  position: absolute
+  left: 0px
+  width: 100%
+  top: 0px
+  bottom: 111px
+  background-position: 0px bottom
+  background-size: contain !important
+  background-repeat: repeat-x !important
+  background: url(/city/f3.png)
+
+.alabom-game-engine-city-green-line
+  position: absolute
+  left: 0px
+  width: 100%
+  top: 0px
+  bottom: 111px
+  background-position: 0px bottom !important
+  background-size: contain !important
+  background-repeat: no-repeat !important
+  background: url(/city/green.png)
+
+.alabom-game-engine-city-ground
+  position: absolute
+  left: 0px
+  bottom: 0px
+  width: 100%
+  height: 28%
+  background-position: 0px bottom
+  background-size: contain !important
+  background-repeat: repeat-x !important
+  background: url(/city/ground.png)
+
+.alabom-game-engine-city-bush
+  position: absolute
+  left: 42px
+  bottom: 112px
+  width: 224px
+  height: 72px
+  background-size: calc(1003px / 4.5) calc(322px / 4.5) !important
+  background-repeat: no-repeat !important
+  background: url(/city/g1.png)
+
+.alabom-game-engine-city-bush2
+  position: absolute
+  left: 42px
+  bottom: 112px
+  width: 290px
+  height: 72px
+  background-size: calc(1308px / 4.5) calc(322px / 4.5) !important
+  background-repeat: no-repeat !important
+  background: url(/city/g2.png)
+
+.alabom-game-engine-city-car
+  position: absolute
+  left: 102px
+  bottom: 110px
+  width: calc(458px / 4.5) !important
+  height: calc(336px / 4.5) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/city/avto.png)
+
+.alabom-game-engine-city-garbage
+  position: absolute
+  left: 102px
+  bottom: 110px
+  width: calc(241px / 4.5) !important
+  height: calc(273px / 4.5) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/city/bak.png)
+
+.alabom-game-engine-city-tree
+  position: absolute
+  left: 102px
+  bottom: 110px
+  width: calc(405px / 4.5) !important
+  height: calc(504px / 4.5) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/city/tree.png)
+
+.alabom-game-engine-city-pit
+  position: absolute
+  left: 102px
+  bottom: 0px
+  width: calc(505px / 4.5) !important
+  height: calc(506px / 4.5) !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/city/ground2.png)
+
+.alabom-game-engine-city-peng
+  position: absolute
+  left: 42px
+  bottom: 107px
+  width: 92px
+  height: 100px
+  background-position: 0 -18px
+  background-size: calc(2331px / 4.5) calc(2049px / 4.5) !important
+  background-repeat: no-repeat !important
+  background: url(/city/pingvin.png)
+
+
+
+
+.alabom-game-engine-common-star
+  position: absolute
+  left: 42px
+  bottom: 139px
+  width: 30px
+  height: 30px
+  background-size: calc(134px / 4.5) calc(127px / 4.5) !important
+  background-repeat: no-repeat !important
+  background: url(/common/star.png)
+
+@font-face
+  font-family: BlackoakStd
+  src : url(/common/BlackoakStd.otf)
+
+.alabom-game-engine-common-score
+  font-family: BlackoakStd
+  font-size: 11px
+  color: white
+  position: absolute
+  width: 100px
+  height: 30px
+  left: 80px
+  bottom: 18px
+
+.alabom-game-engine-common-lives
+  position: absolute
+  width: 0px
+  height: 0px
+  right: 36px
+  bottom: 26px
+
+.alabom-game-engine-common-lives-heart-live
+  position: absolute
+  right: 0px
+  bottom: 0px
+  width: calc(180px / 4.5) !important
+  height: calc(131px / 4.5) !important
+  background-size: contain !important
+  background-repeat: no-repeat !important
+  background: url(/common/ha.png)
+
+.alabom-game-engine-common-lives-heart-dead
+  position: absolute
+  right: 0px
+  bottom: 0px
+  width: calc(179px / 4.5) !important
+  height: calc(132px / 4.5) !important
+  background-size: contain !important
+  background-repeat: no-repeat !important
+  background: url(/common/ha2.png)
+
+.alabom-game-engine-common-score-star
+  position: absolute
+  left: -45px
+  bottom: 2px
+  width: 43px
+  height: 43px
+  background-size: calc(134px / 3.4) calc(127px / 3.4) !important
+  background-repeat: no-repeat !important
+  background: url(/common/star.png)
+
+.alabom-game-engine-common-score-text
+  position: absolute
+  transform: scaleY(2.5)
+
+.alabom-game-engine-common-noselect
+  -webkit-touch-callout: none /* iOS Safari */
+  -webkit-user-select: none /* Safari */
+  -khtml-user-select: none /* Konqueror HTML */
+  -moz-user-select: none /* Firefox */
+  -ms-user-select: none /* Internet Explorer/Edge */
+  user-select: none /* Non-prefixed version, currently supported by Chrome and Opera */
+
+.edge-game-common-anchor
+  position: absolute
+  left: -50px
+  bottom: -50px
+  width: 100px !important
+  height: 100px !important
+  background-repeat: no-repeat !important
+  background-size: contain !important
+  background: url(/common/anchor.png)
+
+
+
+
+.alabom-game-start-screen-bg
+  position: absolute
+  width: 100%
+  height: 100%
+  left: 0px
+  bottom: 0px
+  background: url(/start/dis.jpg)
+
+.alabom-game-start-screen-text
+  position: absolute
+  width: 333px
+  height: 67px
+  left: 128px
+  bottom: 312px
+  background: url(/start/font.png)
+
+.alabom-game-start-screen-button
+  position: absolute
+  width: calc(1017px / 9.33)
+  height: calc(1043px / 9.33)
+  left: 394px
+  bottom: 103px
+  cursor: pointer
+  background-size: contain !important
+  background-repeat: no-repeat !important
+  background: url(/start/button.png)
+
+
+
+
+.alabom-game-select-screen-bg
+  position: absolute
+  width: 100%
+  height: 100%
+  left: 0px
+  bottom: 0px
+  background: url(/select/fon.png)
+
+.alabom-game-select-screen-text
+  position: absolute
+  width: 217px
+  height: 190px
+  left: 184px
+  bottom: 188px
+  background: url(/select/vibor.png)
+
+.alabom-game-select-screen-city
+  position: absolute
+  width: calc(431px / 3.5) !important
+  height: calc(533px / 3.5) !important
+  left: 66px
+  bottom: 165px
+  cursor: pointer
+  background-size: contain !important
+  background-repeat: no-repeat !important
+  background: url(/select/gorod.png)
+
+.alabom-game-select-screen-china
+  position: absolute
+  width: calc(559px / 3.5)
+  height: calc(470px / 3.5)
+  left: 308px
+  bottom: 42px
+  cursor: pointer
+  background-size: contain !important
+  background-repeat: no-repeat !important
+  background: url(/select/kitay.png)
+
+.alabom-game-select-screen-winter
+  position: absolute
+  width: calc(510px / 3.5)
+  height: calc(587px / 3.5)
+  left: 391px
+  bottom: 164px
+  cursor: pointer
+  background-size: contain !important
+  background-repeat: no-repeat !important
+  background: url(/select/sever.png)
+
+.alabom-game-select-screen-summer
+  position: absolute
+  width: calc(562px / 3.5)
+  height: calc(524px / 3.5)
+  left: 138px
+  bottom: 38px
+  cursor: pointer
+  background-size: contain !important
+  background-repeat: no-repeat !important
+  background: url(/select/ug.png)

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>test page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            font-family: "Open Sans", Helvetica, Arial, sans-serif
+        }
+
+        #game-container {
+          position: absolute;
+          width: 320px;
+          height: 213px;
+          margin: 0px auto 0;
+        }
+
+        /* #test {
+          position: absolute;
+          top: 2000px;
+          width: 320px;
+          height: 213px;
+          margin: 0px auto 0;
+        } */
+
+    </style>
+
+    <!--link rel="stylesheet" type="text/css" href="dist/css/alabom-game.min.css" -->
+    <link rel="stylesheet" type="text/css" href="dist/css/alabom-game-style-dyn.css">
+</head>
+<body>
+
+<div id="game-container"></div>
+
+<!-- div id="test">qweqw</div -->
+
+<script src="./dist/alabom-game.js">
+</script>
+
+<script>
+    var game = new alabomGame('game-container');
+
+    alabomGameScore = function( s ) {
+        console.log( 'alabomGameScore:', s );
+    };
+
+    alabomGameEnd = function( s ) {
+        console.log( 'alabomGameEnd:', s );
+    };
+
+</script>
+
+</body>
+</html>

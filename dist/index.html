@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>test page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            font-family: "Open Sans", Helvetica, Arial, sans-serif
+        }
+
+        #game-container {
+          position: absolute;
+          width: 600px;
+          height: 400px;
+          margin: 0px auto 0;
+        }
+
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="css/alabom-game-style-dyn-min.css">
+</head>
+<body>
+
+<div id="game-container"></div>
+
+<script src="./alabom-game.min.js">
+</script>
+
+<script>
+    var game = new alabomGame('game-container');
+</script>
+
+</body>
+</html>
